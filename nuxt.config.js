@@ -37,7 +37,15 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // Doc: https://www.primefaces.org/primevue/showcase-v2/#/setup
-    'primevue/nuxt',
+    [
+      'primevue/nuxt',
+      {
+        theme: 'tailwind-light', //name of the theme, defaults to saga-blue
+        ripple: true, //whether the ripple animation is enabled, defaults to false
+        components: [], //an array of components to be registered
+        directives: [], //an array of directives to be registered
+      },
+    ],
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
