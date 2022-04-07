@@ -1,0 +1,114 @@
+.intro-content {
+  display: inline-block;
+  margin-top: 25vh;
+
+  .catchup {
+    margin-bottom: 30px;
+    .start-text {
+      color: #46c56e;
+      font-weight: 500;
+      font-size: 2rem;
+    }
+
+    .title {
+      font-size: 9rem;
+      font-weight: 700;
+      margin: 0;
+      line-height: 1;
+    }
+  }
+
+  .description {
+    width: 66%;
+    margin-bottom: 45px;;
+    .title {
+      color: white;
+      display: inline;
+      font-size: 2rem;
+      margin: 0;
+    }
+
+    .text {
+      display: inline;
+      margin: 0;
+      color: rgba(255, 255, 255, 0.65);
+      font-size: 2rem;
+    }
+  }
+
+  .sentences{
+    margin-bottom: 45px;
+
+    p{
+      .icon{
+        color: white;
+      }
+      font-size: 1.5rem;
+      font-weight: 300;
+      margin: 10px 0;
+      color: rgba(255, 255, 255, 0.65);
+    }
+  }
+
+  .actions{
+    button{
+      margin-right: 10px;
+    }
+  }
+
+}
+
+@media screen and (max-width: 1100px) {
+  .intro-content {
+    .catchup {
+      margin-bottom: 20px;
+      .start-text {
+        font-size: 1.5rem;
+      }
+
+      .title {
+        font-size: 7rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .intro-content {
+    margin-top: 20vh;
+  
+    .catchup {
+      margin-bottom: 20px;
+      .start-text {
+        font-size: 1.5rem;
+      }
+  
+      .title {
+        font-size: 4rem;
+      }
+    }
+  
+    .description {
+      width: 100%;
+      margin-bottom: 30px;;
+      .title {
+        font-size: 1.3rem;
+        margin: 0;
+      }
+  
+      .text {
+        margin: 0;
+        font-size: 1.3rem;
+      }
+    }
+  
+    .sentences{
+      margin-bottom: 30px;
+      
+      p{
+        font-size: 1.2rem;
+        margin: 5px 0;
+      }
+    }
+  }
+}
