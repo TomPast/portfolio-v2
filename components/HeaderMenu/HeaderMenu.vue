@@ -1,14 +1,14 @@
 <template>
   <div>
     <div class="header-menu">
-      <span class="logo">{T}</span>
-      <div v-if="!mobileMode" class="nav-items">
+      <img class="logo" :src="require(`~/assets/img/logo-tp.svg`)" />
+      <div class="nav-items">
         <a href="#home">Home</a>
         <a href="#project">Project</a>
-        <a href="#blog">Blog</a>
+        <a href="#cv">CV</a>
       </div>
 
-      <div v-if="mobileMode" class="responsive-button">
+      <div class="responsive-button">
         <i class="pi pi-bars" @click="sidebarVisible = true"></i>
       </div>
     </div>
@@ -18,9 +18,9 @@
       dismissable
       class="sidebar"
     >
-      <a href="#home">Home</a>
-      <a href="#project">Project</a>
-      <a href="#blog">Blog</a>
+      <a href="#home" @click="sidebarVisible = false">Home</a>
+      <a href="#project" @click="sidebarVisible = false">Project</a>
+      <a href="#cv" @click="sidebarVisible = false">CV</a>
     </Sidebar>
   </div>
 </template>
