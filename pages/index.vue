@@ -1,7 +1,11 @@
 <template>
   <div class="page">
     <div class="header"><HeaderMenu /></div>
-    <div class="content"><IntroPart /></div>
+    <div class="content">
+      <IntroPart />
+      <AboutMe />
+    </div>
+    <BaseFooter />
   </div>
 </template>
 
