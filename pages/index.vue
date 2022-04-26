@@ -4,6 +4,7 @@
     <div class="content">
       <IntroPart />
       <AboutMe />
+      <ProjectsPart />
     </div>
     <BaseFooter />
   </div>
@@ -23,6 +24,11 @@ body {
   background: black;
   color: white;
   font-family: Roboto, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .content {
