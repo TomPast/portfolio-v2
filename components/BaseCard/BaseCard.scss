@@ -15,6 +15,7 @@ a{
   border: solid 1px rgb(17, 17, 17);
   border-radius: 10px;
   overflow: hidden;
+  z-index: 0;
 
   img{
     width: 100%;
@@ -50,11 +51,7 @@ a{
         }
       }
     }
-
-    hr{
-      border-color: rgba(255, 255, 255, 0.16);
-    }
-
+    
     .card__description{
       color:rgb(143, 144, 148);
       font-size: 16px;
@@ -67,10 +64,16 @@ a{
     }
   }
 
-
-  transition: transform 0.5s;
-
-  &:hover{
-    transform: scale(1.05);
+  hr{
+    border-color: rgba(255, 255, 255, 0.16);
   }
+}
+
+
+.p-skeleton{
+  background-color: #292932 !important;
+}
+
+.p-skeleton:after {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(49, 49, 49, 0.4), rgba(255, 255, 255, 0)) !important;
 }
