@@ -14,7 +14,9 @@
     "lintfix": "prettier --write --list-different . && npm run lint:js -- --fix && npm run lint:style -- --fix"
   },
   "dependencies": {
+    "contentful": "^9.1.25",
     "core-js": "^3.19.3",
+    "fs": "0.0.1-security",
     "nuxt": "^2.15.8",
     "primeflex": "^3.1.0",
     "primeicons": "^5.0.0",
