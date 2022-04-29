@@ -1,4 +1,5 @@
-import dotenv from "dotenv"; dotenv.config();
+import dotenv from 'dotenv'
+dotenv.config()
 
 export default {
   // Target: https://go.nuxtjs.dev/config-target
@@ -18,16 +19,16 @@ export default {
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
-  env:{
+  env: {
     CTF_SPACE_ID: process.env.CTF_SPACE_ID,
     CTF_CD_ACCESS_TOKEN: process.env.CTF_CD_ACCESS_TOKEN,
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ['primeflex/primeflex.css'],
+  css: ['primeflex/primeflex.css', 'aos/dist/aos.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: ["~/plugins/contentful"],
+  plugins: ['~/plugins/contentful', '~/plugins/aos.client.js'],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -51,7 +52,7 @@ export default {
         components: [], //an array of components to be registered
         directives: [], //an array of directives to be registered
       },
-      '@nuxtjs/dotenv'
+      '@nuxtjs/dotenv',
     ],
   ],
 
@@ -60,6 +61,4 @@ export default {
     // https://github.com/primefaces/primevue/issues/844
     transpile: ['primevue'],
   },
-
-
 }

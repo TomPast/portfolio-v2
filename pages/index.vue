@@ -1,11 +1,13 @@
 <template>
   <div class="page">
-    <div class="header"><HeaderMenu /></div>
-    <div class="content">
+    <div class="header">
+      <HeaderMenu />
+    </div>
+    <div id="trigger-right" class="content">
       <IntroPart />
-      <AboutMe />
+      <AboutMe data-aos="fade-down" />
       <ProjectsPart />
-      <ContactPart />
+      <ContactPart data-aos="fade-down" />
     </div>
     <BaseFooter />
   </div>

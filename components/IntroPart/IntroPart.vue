@@ -1,11 +1,15 @@
 <template>
   <div class="intro-content">
     <div class="catchup">
-      <span class="start-text">Hey there! I'm-</span>
-      <h1 class="title">Tom Pastor.</h1>
+      <span class="start-text" data-aos="fade-down" data-aos-delay="100"
+        >Hey there! I'm-</span
+      >
+      <h1 class="title" data-aos="fade-down" data-aos-delay="200">
+        Tom Pastor.
+      </h1>
     </div>
 
-    <div class="description">
+    <div class="description" data-aos="fade-down" data-aos-delay="300">
       <h2 class="title">Frontend Developer.</h2>
       <p class="text">
         A software engineer based in France with an interest in frontend.
@@ -13,14 +17,16 @@
     </div>
 
     <div class="sentences">
-      <p><span class="icon">🚀</span> Open to work</p>
-      <p>
+      <p data-aos="fade-down" data-aos-delay="400">
+        <span class="icon">🚀</span> Open to work
+      </p>
+      <p data-aos="fade-down" data-aos-delay="500">
         <span class="icon">💻</span> Currently working at Spikeelabs as
         Fullstack developer
       </p>
     </div>
 
-    <div class="actions">
+    <div class="actions" data-aos="fade-down" data-aos-delay="550">
       <BaseButton @click.native="redirectToGitHub"> GitHub </BaseButton>
       <BaseButton @click.native="redirectToLinkedin"> Linkedin </BaseButton>
       <BaseButton @click.native="openMail"> Email </BaseButton>
