@@ -5,6 +5,7 @@
       <IntroPart />
       <AboutMe />
       <ProjectsPart />
+      <ContactPart />
     </div>
     <BaseFooter />
   </div>

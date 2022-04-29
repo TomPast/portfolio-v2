@@ -1,0 +1,32 @@
+.contact_part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    height: 90vh;
+
+    .title{
+        font-size: 3rem;
+        margin: 0;
+    }
+
+    .detail{
+        margin: 0;
+        text-align: center;
+        font-size: 1.05rem;
+        line-height: 1.5;
+        color: #8f9094;
+
+        .emphasize{
+            color:#46c56e;
+            font-weight: 500;
+        }
+    }
+
+    .actions{
+        button{
+          margin-right: 10px;
+        }
+      }
+}
