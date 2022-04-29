@@ -34,13 +34,14 @@
           </div>
 
           <div class="card__category">
-            <Chip
+            <span
               v-for="item in project.fields.stack"
               :key="item"
               class="card__tech"
               :label="item"
               icon="pi pi-check"
-            />
+              >{{ item }}</span
+            >
           </div>
 
           <hr />
@@ -54,18 +55,28 @@
 </template>
 
 <script>
-import Chip from 'primevue/chip'
 import Skeleton from 'primevue/skeleton'
 
 export default {
   name: 'BaseCard',
-  components: { Chip, Skeleton },
+  components: { Skeleton },
   props: {
     project: {
       type: Object,
       default: () => ({}),
     },
     loading: Boolean,
+  },
+  methods: {
+    getIcon(name) {
+      if (name === 'IONIC') {
+        return require(`~/assets/ionic-logo.svg`)
+      } else if (name === 'UNITY') {
+        return require(`~/assets/unity-logo.svg`)
+      } else if (name === 'AdobeXD') {
+        return require(`~/assets/adobexd-logo.svg`)
+      }
+    },
   },
 }
 </script>
