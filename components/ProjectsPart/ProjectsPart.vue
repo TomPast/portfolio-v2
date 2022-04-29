@@ -1,17 +1,32 @@
 <template>
   <div class="projects-content">
     <div class="col-1">
-      <div class="col-header">
+      <div class="col-header" data-aos="fade-down" data-aos-delay="100">
         <h2 class="section-title">Some of my work.</h2>
         <p>Here's some of my projects that I have worked on.</p>
         <a href="">Explore more →</a>
       </div>
 
-      <BaseCard :project="projects[0] || {}" :loading="loading" />
+      <BaseCard
+        :project="projects[0] || {}"
+        :loading="loading"
+        data-aos="fade-down"
+        data-aos-delay="200"
+      />
     </div>
     <div class="col-2">
-      <BaseCard :project="projects[1] || {}" :loading="loading" />
-      <BaseCard :project="projects[2] || {}" :loading="loading" />
+      <BaseCard
+        :project="projects[1] || {}"
+        :loading="loading"
+        data-aos="fade-down"
+        data-aos-delay="200"
+      />
+      <BaseCard
+        :project="projects[2] || {}"
+        data-aos-delay="200"
+        :loading="loading"
+        data-aos="fade-down"
+      />
     </div>
   </div>
 </template>
