@@ -47,10 +47,10 @@ export default {
     [
       'primevue/nuxt',
       {
-        theme: 'tailwind-light', //name of the theme, defaults to saga-blue
-        ripple: true, //whether the ripple animation is enabled, defaults to false
-        components: [], //an array of components to be registered
-        directives: [], //an array of directives to be registered
+        theme: 'tailwind-light', 
+        ripple: true,
+        components: [],
+        directives: [],
       },
       '@nuxtjs/dotenv',
     ],
