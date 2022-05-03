@@ -70,11 +70,11 @@ export default {
   methods: {
     getIcon(name) {
       if (name === 'IONIC') {
-        return require(`~/assets/ionic-logo.svg`)
+        return require(`~/assets/icon/ionic-logo.svg`)
       } else if (name === 'UNITY') {
-        return require(`~/assets/unity-logo.svg`)
+        return require(`~/assets/icon/unity-logo.svg`)
       } else if (name === 'AdobeXD') {
-        return require(`~/assets/adobexd-logo.svg`)
+        return require(`~/assets/icon/adobexd-logo.svg`)
       }
     },
   },

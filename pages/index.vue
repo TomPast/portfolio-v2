@@ -21,6 +21,8 @@ export default {
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import '~/assets/scss/fixAOS.scss';
+@import '~/assets/scss/scrollbar.scss';
 
 body {
   margin: 0;
@@ -42,26 +44,5 @@ a {
   .content {
     padding: 0 5%;
   }
-}
-
-/* width */
-::-webkit-scrollbar {
-  width: 7px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #080808;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #1c1c1c;
-  border-radius: 10px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
 }
 </style>
