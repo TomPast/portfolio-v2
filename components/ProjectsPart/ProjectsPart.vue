@@ -3,7 +3,7 @@
     <div class="col-1">
       <div class="col-header" data-aos="fade-down" data-aos-delay="100">
         <h2 class="section-title">Some of my work.</h2>
-        <p>Here's some of my projects that I have worked on.</p>
+        <p>Here's some of the projects that I have worked on.</p>
         <a href="">Explore more →</a>
       </div>
 

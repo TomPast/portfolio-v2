@@ -37,7 +37,7 @@ a {
 }
 
 .content {
-  padding: 0 8%;
+  padding: 0 10%;
 }
 
 @media screen and (max-width: 800px) {
