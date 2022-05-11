@@ -1,10 +1,10 @@
 <template>
   <div>
     <div class="header-menu">
-      <img class="logo" :src="require(`~/assets/img/logo-tp.svg`)" />
+      <NuxtLink to="/"><img class="logo" :src="require(`~/assets/img/logo-tp.svg`)" /></NuxtLink>
       <div class="nav-items">
-        <a href="#home">Home</a>
-        <a href="#project">Projects</a>
+        <NuxtLink to="/">Home</NuxtLink>
+        <NuxtLink to="/projects">Projects</NuxtLink>
         <a href="#cv">CV</a>
       </div>
 
@@ -18,8 +18,8 @@
       dismissable
       class="sidebar"
     >
-      <a href="#home" @click="sidebarVisible = false">Home</a>
-      <a href="#project" @click="sidebarVisible = false">Project</a>
+      <NuxtLink to="/" @click="sidebarVisible = false">Home</NuxtLink>
+      <NuxtLink to="/projects" @click="sidebarVisible = false">Projects</NuxtLink>
       <a href="#cv" @click="sidebarVisible = false">CV</a>
     </Sidebar>
   </div>

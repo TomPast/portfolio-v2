@@ -4,10 +4,7 @@
       <HeaderMenu />
     </div>
     <div class="content">
-      <IntroPart />
-      <AboutMe data-aos="fade-down" />
-      <ProjectsPart />
-      <ContactPart data-aos="fade-down" />
+      <ProjectsList />
     </div>
     <BaseFooter />
   </div>
@@ -15,7 +12,7 @@
 
 <script>
 export default {
-  name: 'IndexPage',
+  name: 'ProjectsPage',
 }
 </script>
 
