@@ -49,6 +49,7 @@ export default {
     if (!client) return
     const data = await client.getEntries({
       content_type: 'project',
+      order: 'fields.priority',
     })
     this.projects = data.items
     this.loading = false

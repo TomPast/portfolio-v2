@@ -4,7 +4,7 @@
       <img class="logo" :src="require(`~/assets/img/logo-tp.svg`)" />
       <div class="nav-items">
         <a href="#home">Home</a>
-        <a href="#project">Project</a>
+        <a href="#project">Projects</a>
         <a href="#cv">CV</a>
       </div>
 
