@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="contact_part">
-      <h4 class="title">Keep in touch.</h4>
+      <h3 class="title">Keep in touch.</h3>
       <p class="detail">
         I'm currently specializing in
         <span class="emphasize">Front-end Development</span>. <br />Feel free to

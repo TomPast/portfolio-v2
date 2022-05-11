@@ -7,14 +7,14 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Tom Pastor - Portfolio',
+    title: 'Tom Pastor - Software Engineer',
     htmlAttrs: {
       lang: 'en',
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'Tom Pastor, software Engineer based in France with an interest in frontend.' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
@@ -60,12 +60,16 @@ export default {
         directives: [],
       },
       '@nuxtjs/dotenv',
+      '@nuxtjs/robots'
     ],
   ],
-
+  robots: {
+    UserAgent: '*',
+    Allow: '/'
+  },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     // https://github.com/primefaces/primevue/issues/844
     transpile: ['primevue'],
-  },
+  }
 }

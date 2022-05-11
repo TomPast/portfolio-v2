@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="header-menu">
-      <NuxtLink to="/"><img class="logo" :src="require(`~/assets/img/logo-tp.svg`)" /></NuxtLink>
+      <NuxtLink to="/"><img class="logo" :src="require(`~/assets/img/logo-tp.svg`)" alt="TP Logo" /></NuxtLink>
       <div class="nav-items">
         <NuxtLink to="/">Home</NuxtLink>
         <NuxtLink to="/projects">Projects</NuxtLink>

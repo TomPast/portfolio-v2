@@ -18,6 +18,7 @@
           <img
             v-if="project.fields.thumbnail"
             :src="'https:' + project.fields.thumbnail.fields.file.url"
+            alt="project thumbnail"
           />
         </header>
         <div class="card__body">
