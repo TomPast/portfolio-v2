@@ -29,7 +29,8 @@
     <div class="actions" data-aos="fade-down" data-aos-delay="550">
       <BaseButton @click.native="redirectToGitHub"> GitHub </BaseButton>
       <BaseButton @click.native="redirectToLinkedin"> Linkedin </BaseButton>
-      <BaseButton @click.native="openMail"> Email </BaseButton>
+      <BaseButton @click.native="openCV"> Resume </BaseButton>
+
     </div>
   </div>
 </template>
@@ -49,8 +50,8 @@ export default {
     redirectToLinkedin() {
       window.open('https://www.linkedin.com/in/tom-pastor/', '_blank')
     },
-    openMail() {
-      window.location.href = 'mailto:contact@tompastor.fr'
+    openCV() {
+      window.open('/CV_PASTOR_Tom.pdf', '_blank')
     },
   },
 }

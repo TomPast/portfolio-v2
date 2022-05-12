@@ -5,7 +5,7 @@
       <div class="nav-items">
         <NuxtLink to="/">Home</NuxtLink>
         <NuxtLink to="/projects">Projects</NuxtLink>
-        <a href="#cv">CV</a>
+        <a href="/CV_PASTOR_Tom.pdf" target="_blank">Resume</a>
       </div>
 
       <div class="responsive-button">
@@ -20,7 +20,7 @@
     >
       <NuxtLink to="/" @click="sidebarVisible = false">Home</NuxtLink>
       <NuxtLink to="/projects" @click="sidebarVisible = false">Projects</NuxtLink>
-      <a href="#cv" @click="sidebarVisible = false">CV</a>
+      <a href="/CV_PASTOR_Tom.pdf" target="_blank" @click="sidebarVisible = false">Resume</a>
     </Sidebar>
   </div>
 </template>

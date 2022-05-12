@@ -8,9 +8,9 @@
         get in touch and talk more about your projects.
       </p>
       <div class="actions">
-        <BaseButton @click.native="redirectToGitHub"> GitHub </BaseButton>
         <BaseButton @click.native="redirectToLinkedin"> Linkedin </BaseButton>
         <BaseButton @click.native="openMail"> Email </BaseButton>
+        <BaseButton @click.native="openCV"> Resume </BaseButton>
       </div>
     </div>
   </div>
@@ -20,14 +20,14 @@
 export default {
   name: 'ContactPart',
   methods: {
-    redirectToGitHub() {
-      window.open('https://github.com/TomPast', '_blank')
-    },
     redirectToLinkedin() {
       window.open('https://www.linkedin.com/in/tom-pastor/', '_blank')
     },
     openMail() {
       window.location.href = 'mailto:contact@tompastor.fr'
+    },
+    openCV() {
+      window.open('/CV_PASTOR_Tom.pdf', '_blank')
     },
   },
 }
