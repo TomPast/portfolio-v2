@@ -12,7 +12,8 @@
     <div class="description" data-aos="fade-down" data-aos-delay="300">
       <h2 class="title">Frontend Developer.</h2>
       <p class="text">
-        A software engineer based in France with an interest in frontend.
+        A software engineer based in Rennes, France with an interest in
+        frontend.
       </p>
     </div>
 
@@ -21,8 +22,7 @@
         <span class="icon">🚀</span> Open to work
       </p>
       <p data-aos="fade-down" data-aos-delay="500">
-        <span class="icon">💻</span> Currently working at Spikeelabs as
-        Fullstack developer
+        <span class="icon">💻</span> Available from mid september
       </p>
     </div>
 
@@ -30,7 +30,6 @@
       <BaseButton @click.native="redirectToGitHub"> GitHub </BaseButton>
       <BaseButton @click.native="redirectToLinkedin"> Linkedin </BaseButton>
       <BaseButton @click.native="openCV"> Resume </BaseButton>
-
     </div>
   </div>
 </template>
@@ -45,10 +44,10 @@ export default {
   mounted() {},
   methods: {
     redirectToGitHub() {
-      window.open('https://github.com/TomPast', '_blank')
+      window.open(process.env.NUXT_ENV_GITHUB_URL, '_blank')
     },
     redirectToLinkedin() {
-      window.open('https://www.linkedin.com/in/tom-pastor/', '_blank')
+      window.open(process.env.NUXT_ENV_LINKEDIN_URL, '_blank')
     },
     openCV() {
       window.open('/CV_PASTOR_Tom.pdf', '_blank')
