@@ -3,8 +3,8 @@
     <div class="contact_part">
       <h3 class="title">Keep in touch.</h3>
       <p class="detail">
-        I'm currently specializing in
-        <span class="emphasize">Front-end Development</span>. <br />Feel free to
+        I'm open to work as
+        <span class="emphasize">Full Stack Developer</span>. <br />Feel free to
         get in touch and talk more about your projects.
       </p>
       <div class="actions">

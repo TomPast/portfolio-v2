@@ -17,7 +17,6 @@ export default {
 </script>
 
 <style>
-
 @import '~/assets/scss/fixAOS.scss';
 @import '~/assets/scss/scrollbar.scss';
 
@@ -25,7 +24,7 @@ body {
   margin: 0;
   background: black;
   color: white;
-  font-family: Inter, -apple-system, BlinkMacSystemFont,  sans-serif !important;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif !important;
 }
 
 a {

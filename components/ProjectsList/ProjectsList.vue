@@ -8,19 +8,18 @@
 
       <div v-for="(project, index) in projects" :key="project.fields.title">
         <BaseCard
-          v-if="index%2==0"
+          v-if="index % 2 == 0"
           :project="project || {}"
           :loading="loading"
           data-aos="fade-down"
           data-aos-delay="200"
         />
       </div>
-      
     </div>
     <div class="col-2">
       <div v-for="(project, index) in projects" :key="project.fields.title">
         <BaseCard
-          v-if="index%2!=0"
+          v-if="index % 2 != 0"
           :project="project || {}"
           :loading="loading"
           data-aos="fade-down"
@@ -51,7 +50,7 @@ export default {
       content_type: 'project',
       order: 'fields.priority',
     })
-        this.projects = data.items
+    this.projects = data.items
 
     this.projects = data.items
     this.loading = false

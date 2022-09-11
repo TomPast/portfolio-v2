@@ -37,11 +37,11 @@
     }
   }
 
-  .sentences{
+  .sentences {
     margin-bottom: 45px;
 
-    p{
-      .icon{
+    p {
+      .icon {
         color: white;
       }
       font-size: 1.3rem;
@@ -51,12 +51,11 @@
     }
   }
 
-  .actions{
-    button{
+  .actions {
+    button {
       margin-right: 10px;
     }
   }
-
 }
 
 @media screen and (max-width: 1100px) {
@@ -77,36 +76,36 @@
 @media screen and (max-width: 800px) {
   .intro-content {
     margin-top: 20vh;
-  
+
     .catchup {
       margin-bottom: 20px;
       .start-text {
         font-size: 1.5rem;
       }
-  
+
       .title {
         font-size: 4rem;
       }
     }
-  
+
     .description {
       width: 100%;
-      margin-bottom: 30px;;
+      margin-bottom: 30px;
       .title {
         font-size: 1.3rem;
         margin: 0;
       }
-  
+
       .text {
         margin: 0;
         font-size: 1.3rem;
       }
     }
-  
-    .sentences{
+
+    .sentences {
       margin-bottom: 30px;
-      
-      p{
+
+      p {
         font-size: 1.2rem;
         margin: 5px 0;
       }

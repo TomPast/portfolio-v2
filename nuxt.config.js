@@ -14,7 +14,12 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Tom Pastor, software Engineer based in France with an interest in frontend.' },
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          'Tom Pastor, software Engineer based in France with an interest in frontend.',
+      },
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
@@ -33,7 +38,7 @@ export default {
   googleFonts: {
     families: {
       Inter: true,
-    }
+    },
   },
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -45,7 +50,7 @@ export default {
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/stylelint
     '@nuxtjs/stylelint-module',
-    '@nuxtjs/google-fonts'
+    '@nuxtjs/google-fonts',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -54,22 +59,22 @@ export default {
     [
       'primevue/nuxt',
       {
-        theme: 'tailwind-light', 
+        theme: 'tailwind-light',
         ripple: true,
         components: [],
         directives: [],
       },
       '@nuxtjs/dotenv',
-      '@nuxtjs/robots'
+      '@nuxtjs/robots',
     ],
   ],
   robots: {
     UserAgent: '*',
-    Allow: '/'
+    Allow: '/',
   },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     // https://github.com/primefaces/primevue/issues/844
     transpile: ['primevue'],
-  }
+  },
 }

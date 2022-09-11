@@ -4,7 +4,7 @@
       <h3 class="title">About me</h3>
       <div class="description">
         <p>
-          I'm Tom Pastor, a french software engineer open to work as Frontend
+          I'm Tom Pastor, a french software engineer open to work as Full Stack
           Developer.
         </p>
         <p>
@@ -14,7 +14,7 @@
           Then I joined SpikeeLabs, a software company specialized in Telecom
           for 1,5 years, as a fullstack developer at the end of my studies. I am
           now looking for new opportunities in
-          <span class="emphasize">frontend development</span>.
+          <span class="emphasize">software development</span>.
         </p>
         <p>
           I am also passionate about

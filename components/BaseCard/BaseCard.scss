@@ -1,14 +1,14 @@
 :root {
-    --primary: #F6A70B;
-    --secondary: #3C4858;
+  --primary: #f6a70b;
+  --secondary: #3c4858;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
 /* Card style */
-.card{
+.card {
   position: relative;
   text-align: left;
   background: rgb(8, 8, 8);
@@ -17,84 +17,86 @@ a{
   overflow: hidden;
   z-index: 0;
 
-  img{
+  img {
     width: 100%;
     height: auto;
     overflow: hidden;
   }
 
-  .card__body{
-    margin:16px;
+  .card__body {
+    margin: 16px;
 
-    .card__header{
+    .card__header {
       display: flex;
       justify-content: space-between;
       align-items: center;
 
-      .card__title{
+      .card__title {
         margin: 0;
       }
 
-      .card__actions{
+      .card__actions {
         display: flex;
         gap: 10px;
 
-
-
-        .icon{
+        .icon {
           font-size: 1.4rem;
-          transition: color .15s ease-in-out;
-          &:hover{
+          transition: color 0.15s ease-in-out;
+          &:hover {
             color: #46c56e;
           }
         }
       }
     }
-    
-    .card__description{
-      color:rgb(143, 144, 148);
+
+    .card__description {
+      color: rgb(143, 144, 148);
       font-size: 16px;
       line-height: 1.4;
     }
 
-    .card__category{
+    .card__category {
       margin-top: 5px;
       display: flex;
       gap: 6px;
     }
 
-    .card__tech{
+    .card__tech {
       height: 20px;
       font-size: 0.75rem;
-      background-color: #89898990;;
+      background-color: #89898990;
       padding: 0 5px;
       border-radius: 5px;
       display: flex;
       width: fit-content;
       align-items: center;
-      
-      i{
+
+      i {
         margin-right: 5px;
         font-size: 0.75rem;
       }
 
-      img{
+      img {
         height: 20px;
         color: red;
       }
     }
   }
 
-  hr{
+  hr {
     border-color: rgba(255, 255, 255, 0.16);
   }
 }
 
-
-.p-skeleton{
+.p-skeleton {
   background-color: #292932 !important;
 }
 
 .p-skeleton:after {
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(49, 49, 49, 0.4), rgba(255, 255, 255, 0)) !important;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0),
+    rgba(49, 49, 49, 0.4),
+    rgba(255, 255, 255, 0)
+  ) !important;
 }

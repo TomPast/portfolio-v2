@@ -8,7 +8,7 @@
   justify-content: space-between;
   padding: 0 3%;
   position: fixed;
-  top:0;
+  top: 0;
   z-index: 10;
 }
 
@@ -36,7 +36,7 @@
   }
 }
 
-.responsive-button{
+.responsive-button {
   display: none;
 }
 
@@ -65,14 +65,15 @@
   }
 }
 
-
 @media screen and (max-width: 800px) {
-  .logo{
+  .logo {
     width: 40px;
   }
-  .nav-items {display: none;}
+  .nav-items {
+    display: none;
+  }
 
-  .responsive-button{
-    display:inline-block;
+  .responsive-button {
+    display: inline-block;
   }
 }

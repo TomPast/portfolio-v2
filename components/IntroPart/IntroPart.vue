@@ -10,10 +10,10 @@
     </div>
 
     <div class="description" data-aos="fade-down" data-aos-delay="300">
-      <h2 class="title">Frontend Developer.</h2>
+      <h2 class="title">Full Stack Developer.</h2>
       <p class="text">
-        A software engineer based in Rennes, France with an interest in
-        frontend.
+        A software engineer based in Rennes, France with an interest in computer
+        science.
       </p>
     </div>
 
