@@ -25,10 +25,9 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     script: [
       {
-        src: "https://plausible.io/js/script.js",
-        body: true,
+        src: 'https://plausible.io/js/script.js',
         defer: true,
-        "data-domain":"tompastor.fr"
+        'data-domain': 'tompastor.fr',
       },
     ],
   },
