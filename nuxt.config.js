@@ -22,13 +22,7 @@ export default {
       },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    script: [
-      {
-        src: '/stats/js/script.js',
-        'data-api': '/stats/api/event',
-        'data-domain': 'tompastor.fr',
-      },
-    ],
+
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
   env: {
