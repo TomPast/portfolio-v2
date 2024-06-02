@@ -4,8 +4,9 @@
       <NuxtLink to="/"
         ><img
           class="logo"
-          :src="require(`~/assets/img/logo-tp.svg`)"
+          :src="require(`~/assets/img/logo-tp.png`)"
           alt="TP Logo"
+
       /></NuxtLink>
       <div class="nav-items">
         <NuxtLink to="/">Home</NuxtLink>

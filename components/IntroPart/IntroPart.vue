@@ -12,17 +12,16 @@
     <div class="description" data-aos="fade-down" data-aos-delay="300">
       <h2 class="title">Full Stack Developer.</h2>
       <p class="text">
-        A software engineer based in Rennes, France with an interest in computer
-        science.
+        A French software engineer with an interest in computer science.
       </p>
     </div>
 
     <div class="sentences">
       <p data-aos="fade-down" data-aos-delay="400">
-        <span class="icon">🚀</span> Open to work
+        <span class="icon">🚀</span> Open to work abroad
       </p>
       <p data-aos="fade-down" data-aos-delay="500">
-        <span class="icon">💻</span> Available from mid september
+        <span class="icon">💻</span> Available from August
       </p>
     </div>
 

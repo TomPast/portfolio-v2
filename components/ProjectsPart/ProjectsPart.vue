@@ -2,7 +2,7 @@
   <div class="projects-content">
     <div class="col-1">
       <div class="col-header" data-aos="fade-down" data-aos-delay="100">
-        <h2 class="section-title">Some of my work.</h2>
+        <h2 class="section-title">Some of my side projects.</h2>
         <p>Here's some of the projects that I have worked on.</p>
         <NuxtLink to="/projects">Explore more →</NuxtLink>
       </div>
