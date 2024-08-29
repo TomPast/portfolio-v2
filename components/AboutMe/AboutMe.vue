@@ -23,11 +23,7 @@
       </div>
     </div>
     <div class="about-me-right">
-      <img
-        class="me-image"
-        :src="require(`~/assets/img/me.jpg`)"
-        alt="Photo of me"
-      />
+
     </div>
   </div>
 </template>
