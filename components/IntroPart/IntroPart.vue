@@ -18,10 +18,10 @@
 
     <div class="sentences">
       <p data-aos="fade-down" data-aos-delay="400">
-        <span class="icon">🚀</span> Open to work abroad
+        <span class="icon">🚀</span> Open to work
       </p>
       <p data-aos="fade-down" data-aos-delay="500">
-        <span class="icon">💻</span> Available from August
+        <span class="icon">💻</span> Available now
       </p>
     </div>
 
