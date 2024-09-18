@@ -15,6 +15,7 @@
 .logo {
   color: white;
   height: 40px;
+  width: auto;
 }
 
 .nav-items {
@@ -66,9 +67,10 @@
 }
 
 @media screen and (max-width: 800px) {
-  .logo {
-    width: 40px;
+  .header-menu {
+    padding: 0 5%;
   }
+
   .nav-items {
     display: none;
   }
